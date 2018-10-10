@@ -12,9 +12,9 @@ module FormsLab
       params[:pirate][:ships].each do |details|
     Course.new(details)
   end
- 
+
   @courses = Course.all
- 
+
   erb :student
 end
   end
